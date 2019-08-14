@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/pg63ux/.platformio/penv/bin:/home/pg63ux/.platformio/penv:/home/pg63ux/apps/gradle/bin:/home/pg63ux/apps/jdk1.8.0_144/bin:/home/pg63ux/.local/share/umake/bin:/home/pg63ux/bin:/home/pg63ux/.local/bin:/home/pg63ux/.nvm/versions/node/v10.10.0/bin:/home/pg63ux/apps/gradle/bin:/home/pg63ux/apps/jdk1.8.0_144/bin:/home/pg63ux/.local/share/umake/bin:/home/pg63ux/bin:/home/pg63ux/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
