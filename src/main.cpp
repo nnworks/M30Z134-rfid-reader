@@ -1,9 +1,13 @@
 #include <Arduino.h>
 
+#include "M30Z134/m30z134Reader.h"
+
 void setup() {
-  // put your setup code here, to run once:
+  // for communicating to the host
+  Serial1.begin(19200);
+  // for communication to the rfid 
+  Serial1.begin(9600);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 }
