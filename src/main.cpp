@@ -1,9 +1,5 @@
 #include <Arduino.h>
 
-// undef min and max (from Arduino.h) because they are defined in memory.h
-#undef max
-#undef min
-#include <memory>
 
 #include "M30Z134/m30z134Reader.h"
 
@@ -20,6 +16,8 @@ void setup() {
   // setup the reader
   reader = std::unique_ptr<M30Z134Reader>(new M30Z134Reader(Serial1));
 
+  reader->createRequestMessage(0x1234, std::shared_ptr<std::vector<uint8_t>>(new std::vector<uint8_t>()));
+  M30Z134Reader::ResponseMessage(std::shared_ptr<std::vector<uint8_t>>(new std::vector<uint8_t>()));
 }
 
 void loop() {
