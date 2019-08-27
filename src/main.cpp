@@ -3,9 +3,12 @@
 
 #include "M30Z134/m30z134Reader.h"
 
+using namespace nnworks::m30z134reader;
+
 namespace {
   std::unique_ptr<M30Z134Reader> reader;
 }
+
 
 void setup() {
   // for communicating to the host

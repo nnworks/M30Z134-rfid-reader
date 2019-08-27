@@ -1,6 +1,8 @@
 
 #include "m30z134Reader.h"
 
+using namespace nnworks::m30z134reader;
+
 // constructor
 M30Z134Reader::M30Z134Reader(USARTClass serial) {
 
